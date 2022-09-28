@@ -2,14 +2,14 @@
 
 int main(){
     int numero;
-    printf("Digite um numero");
-    scanf("%d",numero);
+    printf("Digite um numero: ");
+    scanf("%i",&numero);
 
     if(numero%2 == 0){
-        printf("O numero %d eh par", numero);
+        printf("O numero %i eh par", numero);
     }
     else{
-        printf("O numero %d eh impar", numero);
+        printf("O numero %i eh impar", numero);
     }
 
 }
